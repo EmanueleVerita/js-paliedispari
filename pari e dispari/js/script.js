@@ -41,14 +41,20 @@ console.log( 'somma finale uguale a' , sommaFinale);
 
 //controllo se il risultato è pari o dispari
 
-if(sommaFinale % 2 == 0){
+if((sommaFinale % 2 == 0) && (userNumber % 2 == 0)){
 
     console.log('Hai vinto!!');
 
 }
-else{
+else if( (sommaFinale % 2 != 0) && (userNumber % 2 != 0)){
 
-    console.log('Hai perso :(')
+    console.log('Hai vinto!!');
 
 }
+else [
+
+    console.log('Hai perso :(');
+
+
+]
 
